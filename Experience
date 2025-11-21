@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experience — Elsayed Qutb</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="projects-page">
+
+  <!-- Back Button -->
+  <div class="back-btn-wrap">
+    <button onclick="history.back()" class="back-highlight">← Back</button>
+  </div>
+
+  <div class="projects-container">
+
+    <!-- Intro Box -->
+    <div class="intro-box">
+      <img src="images/me.png.png" alt="Elsayed Aboshady" class="profile-small">
+      <h2>Elsayed Aboshady</h2>
+      <p>My professional experience in Data Analysis, Dashboards, and Business Intelligence.</p>
+    </div>
+
+    <!-- Experience Cards -->
+    <div class="projects-grid">
+      <div class="project-card">
+        <h4> DATA ANALYSIS INTERNSHIP - NTI</h4>
+        <p>Collected, cleaned ,and analyzed large datasets using Power BI, SQL, and Excel to support data - driven decision - making.<br>Conducted exploratory data analysis (EDA) to identify trends, patterns, and ac ionable business insights.<br> Designed and developed interactive Power BI dashboards to visualize KPI sand business metrics.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>OGV MEMBER – AIESEC</h3>
+        <p>Engaged with youth and organization stop romote international volunteering
+opportunities through AIESEC programs.<br>
+Conducted marketing and outreach campaigns to attract potential exchange
+participants.<br>
+Supported applicants through the selection and matching process, ensuring
+smooth communication and coordination.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>DATA ANALYSIS COURSE</h3>
+        <p>Applied hands - on projects to clean, transform, and analyze datasets using Excel,
+PowerBI, python, and SQL.<br>
+Practical skills in Excel (Pivot Tables, Charts, Functions ).<br>
+Created interactive reports and dashboards using Power BI.<br></p>
+      </div>
+
+      <!-- أضف كروت خبرات إضافية هنا -->
+    </div>
+
+  </div>
+
+  <footer class="site-footer">
+    © <span id="year"></span> — Elsayed Qutb
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
